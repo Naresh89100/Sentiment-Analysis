@@ -5,7 +5,7 @@ import openai
 import spacy
 
 #Set the API key here
-openai.api_key = "OPENAPI_KEY"
+openai.api_key = "OPEN_API_KEY"
 # Load Spacy NER model
 nlp = spacy.load("en_core_web_sm")
 
